@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "FastyGet",
+    "slug": "FastyGet",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/updated_app_icon.png",
+    "androidStatusBar": {
+      "backgroundColor": "#FFBC00",
+      "translucent": false
+    },
+    "splash": {
+      "image": "./assets/fastyget_logo_social.png",
+      "backgroundColor": "#FFBC00"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foodery",
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "FastyGet accquired your location to show restaurants and best deals near your location and help to make delivery more accurate.",
+        "NSUserTrackingUsageDescription": "FastyGet needs Tracking Transparency confirmation to show restaurants and best deals near your location and help to make delivery more accurate.",
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wttpbfk9.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu8286q.skadnetwork"
+          }
+        ]
+      }
+    },
+    "android": {
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyDwpX4InZdaneavpyWSUpPYeoswFxyzbJA",
+          "certificateHash": "l9CVEdmKwKkZSBrIx0SJuNOilxk="
+        }
+      },
+      "icon": "./assets/fastyget_final.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/fastyget_final.png"
+      },
+      "package": "com.fastyget.arfasoftech",
+      "versionCode": 7
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-facebook",
+      "expo-tracking-transparency"
+    ],
+    "description": "v 0.0.34"
+  }
+}
